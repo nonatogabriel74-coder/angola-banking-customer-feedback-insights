@@ -96,6 +96,7 @@ Gestão de Canais Digitais.
 O objetivo é ajudar as organizações a identificar os principais pontos de fricção na jornada do cliente e priorizar melhorias baseadas em evidências.
 
 📁 Estrutura do Projeto
+
 ├── README.md
 ├── prompts/
 │   └── banking-cx-analyst-prompt.md
