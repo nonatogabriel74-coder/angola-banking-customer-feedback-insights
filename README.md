@@ -55,7 +55,8 @@ O prompt não assume automaticamente que um problema é causado pelo banco, pela
 ⸻
 
 📂 Estrutura do repositório
-.
+
+
 ├── README.md
 ├── LICENSE
 └── prompt.md
