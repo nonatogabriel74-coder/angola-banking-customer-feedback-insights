@@ -1,205 +1,159 @@
 # angola-banking-customer-feedback-insights
+AI-Powered Customer Feedback Analysis for the Angolan Banking Sector
 
-🇦🇴 Extraindo Insights do Feedback de Clientes Bancários
+Este projeto apresenta uma abordagem baseada em Inteligência Artificial e Análise de Dados para transformar feedbacks de clientes bancários em insights claros, estruturados e acionáveis.
 
-Análise de Customer Experience no Mercado Bancário Angolano
+O projeto foi desenvolvido com foco no contexto do sector bancário angolano e nos principais canais e serviços de pagamentos digitais, incluindo:
 
-Este repositório contém um prompt estruturado para análise de feedbacks de clientes bancários no contexto do mercado angolano, considerando canais digitais, meios de pagamento, cartões, ATM, TPA, transferências, pagamentos e atendimento ao cliente.
-
-O objetivo é transformar comentários não estruturados de clientes em insights claros, baseados em evidências e acionáveis para a tomada de decisão.
-
-⸻
+Multicaixa Express;
+Cartões Multicaixa;
+Cartões de crédito;
+ATM;
+TPA;
+Aplicações móveis;
+Internet Banking;
+Transferências bancárias;
+Pagamentos digitais;
+Atendimento ao cliente
 
 🎯 Objetivo
 
-Apoiar equipas de:
+O objetivo é analisar comentários de clientes e identificar:
 
-* Customer Experience (CX);
-* Customer Service;
-* Produto;
-* Transformação Digital;
-* Operações;
-* Tecnologia;
-* Business Intelligence;
-* Data Analytics.
+Temas recorrentes;
+Sentimento dos clientes;
+Nível de urgência;
+Produtos e canais mais mencionados;
+Principais problemas;
+Elogios;
+Oportunidades de melhoria;
+Prioridades de ação para as equipas de Customer Experience, Tecnologia, Operações e Atendimento.
 
-Na identificação de:
+A solução transforma feedbacks não estruturados em informação útil para a tomada de decisão.
 
-* Temas recorrentes;
-* Sentimento dos clientes;
-* Nível de urgência;
-* Problemas nos canais digitais;
-* Fricções na jornada do cliente;
-* Oportunidades de melhoria;
-* Prioridades de ação.
+🧠 Como funciona
 
-⸻
+O sistema recebe feedbacks contendo, quando disponíveis:
 
-🇦🇴 Contexto do mercado angolano
+Data;
+Canal;
+Texto do feedback;
+Produto ou serviço;
+Nota de satisfação de 1 a 5.
 
-O prompt foi adaptado para o contexto do ecossistema bancário e de pagamentos em Angola, considerando referências como:
+A Inteligência Artificial analisa os dados e classifica cada feedback segundo:
 
-* Multicaixa Express;
-* Cartões Multicaixa;
-* Cartões de débito e crédito;
-* Caixas Automáticos (ATM);
-* Terminais de Pagamento Automático (TPA);
-* Transferências interbancárias;
-* Pagamentos;
-* Mobile Banking;
-* Internet Banking;
-* Atendimento por chat, WhatsApp, telefone e outros canais.
+📌 Tema
+Falha técnica;
+Transação recusada;
+Transação pendente;
+ATM;
+TPA;
+Cartões;
+Transferências;
+Pagamentos;
+Aplicação móvel;
+Atendimento;
+Segurança;
+Taxas e comissões;
+Usabilidade.
 
-O prompt não assume automaticamente que um problema é causado pelo banco, pela EMIS, por uma operadora de telecomunicações ou por qualquer outra entidade. As conclusões devem ser baseadas exclusivamente nos dados fornecidos.
+😊 Sentimento
+Positivo;
+Neutro;
+Negativo;
+Misto.
 
-⸻
+🚨 Urgência
+Alta;
+Média;
+Baixa.
 
-📂 Estrutura do repositório
+📊 Resultado da análise
 
+O sistema gera:
+
+Resumo executivo;
+Tabela de insights;
+Principais padrões identificados;
+Evidências baseadas nos feedbacks;
+Oportunidades de melhoria;
+Recomendações práticas;
+As três prioridades mais importantes.
+
+🏦 Aplicação no sector bancário
+
+Esta abordagem pode apoiar:
+
+Equipas de Customer Experience;
+Equipas de Produto;
+Tecnologia;
+Operações;
+Atendimento ao Cliente;
+Data Analytics;
+Gestão de Canais Digitais.
+
+O objetivo é ajudar as organizações a identificar os principais pontos de fricção na jornada do cliente e priorizar melhorias baseadas em evidências.
+
+📁 Estrutura do Projeto
 ├── README.md
-├── LICENSE
-└── prompt.md
+├── prompts/
+│   └── banking-cx-analyst-prompt.md
 
+🔒 Privacidade e Proteção de Dados
 
-prompt.md
+Este projeto deve ser utilizado exclusivamente com dados devidamente anonimizados.
 
-Contém o prompt principal para análise de feedbacks de clientes bancários.
+Não devem ser incluídos:
 
-LICENSE
+Números de conta;
+Números de cartão;
+PINs;
+Códigos de segurança;
+Contactos pessoais;
+Dados de identificação;
+Informações financeiras confidenciais.
 
-Define os termos de utilização, distribuição e modificação do conteúdo deste repositório.
+Os dados utilizados neste repositório devem ser fictícios, anonimizados ou disponibilizados com autorização adequada.
 
-⸻
+⚠️ Limitações
 
-🧠 Principais capacidades do prompt
+A qualidade dos insights depende diretamente da qualidade dos dados fornecidos.
 
-O prompt orienta a análise para:
+A análise não deve:
 
-Classificação
+Inventar causas;
+Criar estatísticas inexistentes;
+Transformar um comentário individual numa tendência;
+Atribuir responsabilidades sem evidências;
+Expor informações pessoais.
 
-* Tema;
-* Produto;
-* Canal;
-* Sentimento;
-* Urgência.
+Quando os dados forem insuficientes, a limitação deve ser claramente indicada.
 
-Identificação de padrões
+🚀 Possíveis Evoluções
 
-* Problemas recorrentes;
-* Reclamações;
-* Elogios;
-* Fricções;
-* Oportunidades de melhoria.
+Este projeto pode evoluir para uma plataforma completa de Customer Experience Analytics, com:
 
-Análise baseada em evidências
+Dashboard em Power BI;
+Classificação automática de feedbacks;
+Análise de sentimento;
+Detecção de temas recorrentes;
+Sistema de prioridades;
+Alertas para problemas críticos;
+Integração com Excel;
+API de Inteligência Artificial;
+Monitorização de indicadores de satisfação;
+Análise de tendências ao longo do tempo.
 
-A análise deve utilizar exemplos reais dos dados fornecidos, sem inventar:
+👨‍💻 Autor
 
-* Números;
-* Causas;
-* Tendências;
-* Percentagens;
-* Conclusões.
+Projeto desenvolvido como iniciativa de aplicação de:
 
-Recomendações acionáveis
+Inteligência Artificial Generativa;
+Prompt Engineering;
+Data Analytics;
+Customer Experience;
+Business Intelligence;
+Banking Technology.
 
-As recomendações podem ser direcionadas para:
-
-* Experiência do Cliente;
-* Produto;
-* Canais Digitais;
-* Operações;
-* Tecnologia;
-* Atendimento.
-
-⸻
-
-📊 Dados de entrada esperados
-
-O prompt pode ser utilizado com dados contendo, por exemplo:
-
-data,canal,feedback,produto,satisfacao
-2026-01-10,Chat,"A transferência foi debitada mas ainda não chegou ao destinatário",Transferência,2
-2026-01-11,Aplicativo,"O aplicativo é fácil de usar",Mobile Banking,5
-
-📋 Formato de saída
-
-A resposta esperada inclui:
-
-1. Resumo executivo com até 5 linhas;
-2. Tabela de insights;
-3. Principais padrões identificados;
-4. Evidências dos dados;
-5. Ações recomendadas;
-6. As 3 principais prioridades de ação;
-7. Limitações da análise, quando aplicável.
-
-⸻
-
-🔐 Princípios de análise
-
-O prompt segue os seguintes princípios:
-
-* Basear-se apenas nos dados fornecidos;
-* Não inventar informações;
-* Não expor dados pessoais ou sensíveis;
-* Diferenciar factos de hipóteses;
-* Não atribuir causas sem evidência;
-* Não confundir frequência com gravidade;
-* Não transformar uma opinião isolada em tendência;
-* Informar limitações dos dados;
-* Utilizar linguagem simples e orientada à decisão.
-
-⸻
-
-🚀 Como utilizar
-
-1. Copie o conteúdo de prompt.md⁠￼;
-2. Cole o prompt no seu modelo de IA preferido;
-3. Forneça os dados de feedback dos clientes;
-4. Solicite a análise;
-5. Utilize os insights para apoiar a priorização de melhorias.
-
-⸻
-
-🧩 Possíveis evoluções
-
-Este projeto pode evoluir para incluir:
-
-* Classificação automática de feedbacks;
-* Análise de sentimento;
-* Score de urgência;
-* Score de impacto;
-* Matriz Impacto × Esforço;
-* Análise de causa-raiz;
-* Taxonomia de reclamações bancárias;
-* Saída estruturada em JSON;
-* Integração com Power BI;
-* Dashboards de Customer Experience;
-* Pipelines de análise de feedback;
-* Integração com APIs de modelos de linguagem.
-
-⸻
-
-📌 Aplicação estratégica
-
-Este projeto demonstra como a combinação de:
-
-Dados + Inteligência Artificial + Customer Experience + Business Intelligence
-
-pode transformar feedbacks não estruturados em informação útil para:
-
-identificar problemas, priorizar ações e melhorar a experiência dos clientes no setor bancário angolano.
-
-⸻
-
-👤 Autor
-
-Gabriel
-
-Data-Driven Business Strategist
-Big Data & Business Intelligence
-Gestão Financeira
-Inteligência Artificial Aplicada
-Customer Experience
-Embaixador ENEB em Angola
+⭐ Este projeto demonstra como a Inteligência Artificial pode transformar feedbacks de clientes em insights estratégicos para melhorar a experiência no sector bancário angolano.
